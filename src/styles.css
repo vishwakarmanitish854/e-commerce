@@ -453,8 +453,7 @@ body {
     font-family: 'Mukta', sans-serif;
     margin: 0;
     padding: 0;
-    overflow: scroll;
-    overflow-x: unset;
+    overflow: auto; /* Ensures both vertical and horizontal scrolling are handled */
     scroll-behavior: smooth;
     color: white;
     background-color: rgb(234, 237, 237);
